@@ -148,12 +148,30 @@ body {
 }
 
 label {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: #4c4c4c;
+  margin-top:20px;
 }
+
 
 .tBox {
   display: block;
+  border: 1px solid #E5E7EB;
+  width: 250px;
+  margin-bottom:20px;
 }
+
+input:user-valid {
+  border-color: green;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+.tBox:focus{
+  box-shadow: 4px 4px 4px #4c4c4c;
+} 
 
 .footer {
   padding-left: 5%;
