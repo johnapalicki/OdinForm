@@ -23,17 +23,32 @@
             </div>
             <div class = "content">
                 <div class = "intro">
-                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+                    <p class="clamp">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
                     <p>You <i>know</i> you want to.</p>
                 </div>
-                <div class = "form">
-                    <p>Let's do this!</p>
-                        <label for="first_name">First Name:</label>
+                <p class="formIntro">Let's do this!</p>
+                <div class = "forms">
+                    <div class="leftForms">
+                        <label for="first_name">First Name</label>
                         <input type="text" name="first_name" class="tBox" id="first_name">
                         <label for="email_name">Email</label>
                         <input type="text" name="email_name" class="tBox" id="email_name">
-                        <label for="password">Pasword</label>
+                        <label for="password">Password</label>
                         <input type="text" name="password" class="tBox" id="password">
+                    </div>
+                    <div class="rightForms">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" class="tBox" id="last_name">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" class="tBox" id="phone">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="text" name="confirm" class="tBox" id="confirm">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button class="signUp">Create Account</button>
+                    <p class="logPrompt">Already have an account? <a class="login">Log In</a></p>
+                   
                 </div>
             </div>
         </div>
